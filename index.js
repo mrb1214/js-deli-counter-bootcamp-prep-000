@@ -45,8 +45,9 @@ function nowServing(katzDeliLine){
     return "The line is currently empty."
   }
 }*/
-var nameAndPosition= []
+
 function currentLine(katzDeliLine){
+  var nameAndPosition= []
   for (let i=0; i<katzDeliLine.length; i+=1) {
     var position=i
     var name= katzDeliLine[i]
